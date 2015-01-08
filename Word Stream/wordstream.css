@@ -2,19 +2,31 @@
 	margin: 0px;
 	padding: 0px;
 	border: dashed red 1px;
+	vertical-align: top;
+	margin: 0 auto;
 }
 .container{
 	width: 970px;
-	height: 900px;
 }
 .navbar{
 	width: 970px;
 	height: 40px;
+	text-align: right;
 }
+	.navbar p, .navbutton{
+		display: inline-block;
+	}
+	.navbar p{
+		margin-right: 20px;
+		margin-top: 5px;
+	}
 .logo{
 	width: 970px;
 	height: 94px;
 }
+	img, h1{
+		display: inline-block;
+	}
 .advert{
 	width: 248px;
 	height: 500px;
