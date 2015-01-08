@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: dashed red 1px;
+}
+.container{
+	width: 970px;
+	height: 900px;
+}
+.navbar{
+	width: 970px;
+	height: 40px;
+}
+.logo{
+	width: 970px;
+	height: 94px;
+}
+.advert{
+	width: 248px;
+	height: 500px;
+}
+.content{
+	width: 714px;
+	height: 500px;
+}
+.content, .advert{
+	display: inline-block;
+}
