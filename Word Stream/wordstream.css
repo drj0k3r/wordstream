@@ -1,7 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	border: dashed red 1px;
+/*	border: dashed red 1px;*/
 	vertical-align: top;
 	margin: 0 auto;
 }
@@ -13,12 +13,30 @@
 	height: 40px;
 	text-align: right;
 }
+	.navbar a{
+		background: #147CC2;
+		color: white;
+		width: 80px;
+		height: 25px;
+		margin-top: 10px;
+		border-radius: 10px;
+		text-align: center;
+		padding-top: 5px;
+		text-decoration: none;
+	}
 	.navbar p, .navbutton{
 		display: inline-block;
 	}
 	.navbar p{
-		margin-right: 20px;
-		margin-top: 5px;
+		margin-right: 10px;
+		margin-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		background-color: #E1E1E1;
+		color: #969696;
+		border-radius: 10px;
 	}
 .logo{
 	width: 970px;
@@ -27,14 +45,169 @@
 	img, h1{
 		display: inline-block;
 	}
-.advert{
-	width: 248px;
-	height: 500px;
+	h1{
+		padding-top: 15px;
+	}
+	span.logoimportant{
+		color: #838385;
+	}
+	span.notimportant{
+		color: #207DA1;
+	}
+.header{
+	background-color: #147CC2;
 }
+	.header h2{
+		color: white;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 10px;
+	}
 .content{
-	width: 714px;
+	width: 725px;
+	margin-left: 10px;
+}
+	.highlightunder{
+		color: #2FA0E5;
+		text-decoration: underline;
+	}
+	.content h3{
+		color: #3A7094;
+	}
+	.content h6{
+		color: #8F8F8F;
+	}
+	.content h2{
+		color: #5BB5DF;
+	}
+	.homebutton, .contact, .cellphone{
+		display: inline-block;
+	}
+	.homebutton img, h3{
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+	.contact, .cellphone{
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.cellphone{
+		margin-left: 450px;
+	}
+	.content, .advert{
+	display: inline-block;
+	}
+
+	.content h3{
+		color: #2376B1;
+	}
+	.important{
+		font-weight: bold;
+	}
+	.content p{
+		padding-bottom: 15px;
+	}
+	ul{
+		padding-left: 40px;
+		padding-bottom: 20px;
+	}
+	div .banner{
+		border: solid #83BCD9 4px;
+		width: 720px;
+	}
+	.flagger{
+		vertical-align: left;
+	}
+	.banner p, .banner h3, .flagger{
+		display: inline-block;
+		text-align: left;
+	}
+	.banner p{
+		width: 650px;
+		padding-left: 65px;
+		margin-top: -45px;
+	}
+	.startbutton{
+		background-color: #97B800;
+		color: white;
+		display: block;
+		padding: 10px;
+		margin-left: 65px;
+		margin-bottom: 5px;
+		margin-right: 475px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 5px;
+	}
+.bottomfoot h4{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #147BBB;
+}
+.advert{
+	width: 230px;
 	height: 500px;
 }
-.content, .advert{
-	display: inline-block;
-}
+	.advert p{
+		font-size: 12px;
+	}
+	.highlight{
+		color: #2FA0E5;
+	}
+	.advert a{
+		text-decoration: none;
+		text-align: center;
+		color: white;
+	}
+	.topbutton{
+		background-color: #218ED2;
+	}
+	.botbutton{
+		background-color: #F18800;
+	}
+	.topbutton, .botbutton{
+		display: block;
+		border-radius: 5px;
+		margin: 5px;
+		padding: 5px 25px 5px 25px;
+	}
+	.ccconditions{
+		text-align: center;
+	}
+	.background{
+		margin-top: 20px;
+		width: 198px;
+		height: 241px;
+		background-image: url("file:///C:/Users/New%20Owner/Desktop/Word%20Stream/screen3-images/left_content_ad.png") 
+	}
+	.advert h3{
+		color: #147BBB;
+		margin-top: 60px;
+	}
+	.advert h4{
+		color: #C54E17;
+	}
+	.background h4{
+		color: #147BBB;
+		padding: 5px;
+		font-size: 18px;
+	}
+	.background p{
+		color: #4E4E4E;
+		padding: 0px 15px 15px 15px;
+		font-size: 14px;
+	}
+	.advertbutton{
+		background-color: #114975;
+		padding: 5px 15px 5px 15px;
+		margin-left: 10px;
+		border-radius: 5px;
+	}
+	.background a{
+		color: white;
+		text-decoration: none;
+		font-style: none;
+	}
